@@ -1,0 +1,1369 @@
+
+    <html>
+    <header>
+        <link href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css" rel="stylesheet">
+    </header>
+    <body>
+    <table border="1" class="dataframe" id="table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+      <th>10</th>
+      <th>11</th>
+      <th>12</th>
+      <th>13</th>
+      <th>14</th>
+      <th>15</th>
+      <th>16</th>
+      <th>17</th>
+      <th>18</th>
+      <th>19</th>
+      <th>20</th>
+      <th>21</th>
+      <th>22</th>
+      <th>23</th>
+      <th>24</th>
+      <th>25</th>
+      <th>26</th>
+      <th>27</th>
+      <th>28</th>
+      <th>29</th>
+      <th>30</th>
+      <th>31</th>
+      <th>32</th>
+      <th>33</th>
+      <th>34</th>
+      <th>35</th>
+      <th>36</th>
+      <th>37</th>
+      <th>38</th>
+      <th>39</th>
+      <th>40</th>
+      <th>41</th>
+      <th>42</th>
+      <th>43</th>
+      <th>44</th>
+      <th>45</th>
+      <th>46</th>
+      <th>47</th>
+      <th>48</th>
+      <th>49</th>
+      <th>50</th>
+      <th>51</th>
+      <th>52</th>
+      <th>53</th>
+      <th>54</th>
+      <th>55</th>
+      <th>56</th>
+      <th>57</th>
+      <th>58</th>
+      <th>59</th>
+      <th>60</th>
+      <th>61</th>
+      <th>62</th>
+      <th>63</th>
+      <th>64</th>
+      <th>65</th>
+      <th>66</th>
+      <th>67</th>
+      <th>68</th>
+      <th>69</th>
+      <th>70</th>
+      <th>71</th>
+      <th>72</th>
+      <th>73</th>
+      <th>74</th>
+      <th>75</th>
+      <th>76</th>
+      <th>77</th>
+      <th>78</th>
+      <th>79</th>
+      <th>80</th>
+      <th>81</th>
+      <th>82</th>
+      <th>83</th>
+      <th>84</th>
+      <th>85</th>
+      <th>86</th>
+      <th>87</th>
+      <th>88</th>
+      <th>89</th>
+      <th>90</th>
+      <th>91</th>
+      <th>92</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>id</td>
+      <td>api_model</td>
+      <td>api_link</td>
+      <td>is_boosted</td>
+      <td>title</td>
+      <td>alt_titles</td>
+      <td>thumbnail</td>
+      <td>main_reference_number</td>
+      <td>has_not_been_viewed_much</td>
+      <td>boost_rank</td>
+      <td>date_start</td>
+      <td>date_end</td>
+      <td>date_display</td>
+      <td>date_qualifier_title</td>
+      <td>date_qualifier_id</td>
+      <td>artist_display</td>
+      <td>place_of_origin</td>
+      <td>dimensions</td>
+      <td>medium_display</td>
+      <td>inscriptions</td>
+      <td>credit_line</td>
+      <td>catalogue_display</td>
+      <td>publication_history</td>
+      <td>exhibition_history</td>
+      <td>provenance_text</td>
+      <td>publishing_verification_level</td>
+      <td>internal_department_id</td>
+      <td>fiscal_year</td>
+      <td>fiscal_year_deaccession</td>
+      <td>is_public_domain</td>
+      <td>is_zoomable</td>
+      <td>max_zoom_window_size</td>
+      <td>copyright_notice</td>
+      <td>has_multimedia_resources</td>
+      <td>has_educational_resources</td>
+      <td>colorfulness</td>
+      <td>color</td>
+      <td>latitude</td>
+      <td>longitude</td>
+      <td>latlon</td>
+      <td>is_on_view</td>
+      <td>on_loan_display</td>
+      <td>gallery_title</td>
+      <td>gallery_id</td>
+      <td>artwork_type_title</td>
+      <td>artwork_type_id</td>
+      <td>department_title</td>
+      <td>department_id</td>
+      <td>artist_id</td>
+      <td>artist_title</td>
+      <td>alt_artist_ids</td>
+      <td>artist_ids</td>
+      <td>artist_titles</td>
+      <td>category_ids</td>
+      <td>category_titles</td>
+      <td>term_titles</td>
+      <td>style_id</td>
+      <td>style_title</td>
+      <td>alt_style_ids</td>
+      <td>style_ids</td>
+      <td>style_titles</td>
+      <td>classification_id</td>
+      <td>classification_title</td>
+      <td>alt_classification_ids</td>
+      <td>classification_ids</td>
+      <td>classification_titles</td>
+      <td>subject_id</td>
+      <td>alt_subject_ids</td>
+      <td>subject_ids</td>
+      <td>subject_titles</td>
+      <td>material_id</td>
+      <td>alt_material_ids</td>
+      <td>material_ids</td>
+      <td>material_titles</td>
+      <td>technique_id</td>
+      <td>alt_technique_ids</td>
+      <td>technique_ids</td>
+      <td>technique_titles</td>
+      <td>theme_titles</td>
+      <td>image_id</td>
+      <td>alt_image_ids</td>
+      <td>document_ids</td>
+      <td>sound_ids</td>
+      <td>video_ids</td>
+      <td>text_ids</td>
+      <td>section_ids</td>
+      <td>section_titles</td>
+      <td>site_ids</td>
+      <td>suggest_autocomplete_all</td>
+      <td>source_updated_at</td>
+      <td>updated_at</td>
+      <td>timestamp</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>18751</td>
+      <td>artworks</td>
+      <td>https://api.artic.edu/api/v1/artworks/18751</td>
+      <td>False</td>
+      <td>Bust of Said Abdullah of the Darfour People</td>
+      <td>None</td>
+      <td>{'lqip': 'data:image/gif;base64,R0lGODlhBAAFAPQAACQpJiguLS4yMjM2NTQ5Ojg8OTxAQkdLSURJTGdnY2RnZHFzb3l7eoKDgYSEgomLjY2Oj5GRjsfGwsbFxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoOQ0UwQI0KEMz1IQTGIgQQgAOw==', 'width': 1795, 'height': 2250, 'alt_text': 'A work made of bronze.'}</td>
+      <td>1963.839</td>
+      <td>False</td>
+      <td>None</td>
+      <td>1848</td>
+      <td>1848</td>
+      <td>1848</td>
+      <td></td>
+      <td>None</td>
+      <td>Charles Henri Joseph Cordier\nFrench, 1827-1905\nCast by: Eck et Durand Fondeur\nFrench, 19th century</td>
+      <td>France</td>
+      <td>H. 82.5 x 45.7 x 35.6 cm (32 1/2 x 18 x 14 in.) (with socle)\nH. 71.3 cm (28 1/8 in.) (without socle)</td>
+      <td>Bronze</td>
+      <td>Inscribed:  CH. CORDIER 1848</td>
+      <td>Ada Turnbull Hertle Endowment</td>
+      <td>None</td>
+      <td>"R. &amp; M. Andrade," Apollo 121, 423 (1960), p. x.\n\nArt Institute of Chicago, Annual Report, 1963-64, p. 19.\n\nJohn Maxon, Art Institute of Chicago Quarterly 58, 1 (1964).\n\nS. Réveilluad Kriz, L'Odyssée d'un peintre: Drouet Réveilluad (Paris: Fischbacher, 1973), p. 17.\n\nInstitut für Auslandsbeziehungen, Württembergischer Kunstverein, Exotische Welten, Europäsische phantasien (1987), pp. 357, 491, no. 3.62.\n\nNew York, Charles Janoray, LLC, A Golden Age of French Sculpture, 1850-1900 (2003), p. 40, fig. 1.\n\nParis, Musée d'Orsay, Charles Cordier, 1827-1905: l'autre et l'ailleurs (2004), pp. 15, 18, 205, no. 474.\n\nFor comparison, see:\n\nStanislas Lami, Dictionnaire des sculpteurs de l’école Francaise au dix-neuviéme siècle 1, reprint (Liechtenstein, 1970), p. 417.\n\nHugh Honour, The Image of the Black in Western Art IV, 2 (Cambridge, MA, 1976-1989), pp. 100-02, fig. 72.\n\nJeannine Durand-Revillon, "Un promoteur de la sculpture polychrome sous le Second Empire, Charles-Henri-Joseph Cordier (1827-1905)," Soc. Hist. Art Francais (1982), pp. 182, 192, fig. 1.\n\nHermann Pollig, et al, Exotische Welten, Europäsische Phantasien (Stuttgart, 1987), pp. 357, 374, 491, no. 3.61.\n\nAntoinette Le Normand-Romain, et al, La Sculpture ethnographique, de la Vénus hottentote à la Tehura de Gauguin (Paris, 1994), p. 55, no. 33.\n\nElyse Nelson and Wendy S. Walters, eds., Fictions of Emancipation: Carpeaux's Why Born Enslaved! Reconsidered, exh. cat. (New Haven and London: Yale University Press, 2022), 50, 53, pl. 29, 67-9, 94.</td>
+      <td>New York, The Metropolitan Museum of Art, Fictions of Emancipation: Carpeaux's Why Born Enslaved! Reconsidered, Mar. 7, 2022-Mar. 5, 2023, pl. 29.</td>
+      <td>Cast in Paris, 1848 and believed to be the original pair cast for the artist [see letter from Gerald Kerin in curatorial object file]; possibly sold directly by the artist to an English private collector in Devon, 1851 [according to letter from William Redford, in curatorial file; Cordier brought ethnographic busts to the 1862 London Exposition, see Exotische Welten, p. 357]; purchased from this collection by William Redford, the agent for Gerald Kerin, Ltd. [see same letter in curatorial file]; sold by Gerald Kerin, Ltd. to the Art Institute, 1963.</td>
+      <td>Web Cataloged</td>
+      <td>14</td>
+      <td>1964</td>
+      <td>None</td>
+      <td>True</td>
+      <td>True</td>
+      <td>-1</td>
+      <td>None</td>
+      <td>True</td>
+      <td>False</td>
+      <td>4.6216</td>
+      <td>{'h': 204, 'l': 37, 's': 3, 'percentage': 0.10334663359574392, 'population': 920}</td>
+      <td>41.879842</td>
+      <td>-87.623308</td>
+      <td>41.879842110622,41.879842110622</td>
+      <td>False</td>
+      <td>&lt;p&gt;On loan to The Metropolitan Museum of Art in New York City for &lt;i&gt;Fictions of Emancipation: Carpeaux Recast&lt;/i&gt;&lt;/p&gt;</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Sculpture</td>
+      <td>3</td>
+      <td>Painting and Sculpture of Europe</td>
+      <td>PC-10</td>
+      <td>5301</td>
+      <td>Charles Henri Joseph Cordier</td>
+      <td>[]</td>
+      <td>[5301]</td>
+      <td>[Charles Henri Joseph Cordier]</td>
+      <td>[PC-10]</td>
+      <td>[Painting and Sculpture of Europe]</td>
+      <td>[bust/head, bronze, copper alloy, nonferrous metal, metal, inorganic material, sculpture]</td>
+      <td>None</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>TM-347</td>
+      <td>bust/head</td>
+      <td>[TM-13]</td>
+      <td>[TM-347, TM-13]</td>
+      <td>[bust/head, sculpture]</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>TM-2430</td>
+      <td>[TM-2694, TM-2683, TM-2568, TM-2600]</td>
+      <td>[TM-2430, TM-2694, TM-2683, TM-2568, TM-2600]</td>
+      <td>[bronze, copper alloy, nonferrous metal, metal, inorganic material]</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>6a0e3e40-1e36-2109-378f-3fc5d29176b3</td>
+      <td>[]</td>
+      <td>[cb00e703-1452-422c-b2cc-72857a172537]</td>
+      <td>[cb00e703-1452-422c-b2cc-72857a172537]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[{'input': ['1963.839'], 'contexts': {'groupings': ['accession']}}, {'input': ['Bust of Said Abdullah of the Darfour People'], 'weight': 7220, 'contexts': {'groupings': ['title']}}]</td>
+      <td>2022-09-10T00:30:14-05:00</td>
+      <td>2022-09-10T00:32:58-05:00</td>
+      <td>2022-09-10T08:51:47-05:00</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>8961</td>
+      <td>artworks</td>
+      <td>https://api.artic.edu/api/v1/artworks/8961</td>
+      <td>False</td>
+      <td>Head of Arthur Jerome Eddy</td>
+      <td>None</td>
+      <td>{'lqip': 'data:image/gif;base64,R0lGODlhBQAFAPQAAD8/O0REQUpKR1FRT35+fZmZl5uamZubmZ+fn6Kioqampaenp6ioqLW1tLW1tri4uLq6ur6+vr+/v9LS0tPT0wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAFAAUAAAUVIIMQyQIhgfJMjtBM0gAMEWUUxxQCADs=', 'width': 2304, 'height': 2250, 'alt_text': 'A work made of bronze.'}</td>
+      <td>1931.502</td>
+      <td>False</td>
+      <td>None</td>
+      <td>1898</td>
+      <td>1898</td>
+      <td>1898</td>
+      <td></td>
+      <td>None</td>
+      <td>Auguste Rodin\nFrench, 1840-1917</td>
+      <td>France</td>
+      <td>17 3/4 x 19 1/2 x 10 3/4 in. (45 x 49.5 x 27.3 cm)</td>
+      <td>Bronze</td>
+      <td>None</td>
+      <td>Arthur Jerome Eddy Memorial Collection</td>
+      <td>&lt;p&gt;Unknown 57 1922.&lt;/p&gt;</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Web Basic</td>
+      <td>14</td>
+      <td>1930</td>
+      <td>None</td>
+      <td>True</td>
+      <td>True</td>
+      <td>-1</td>
+      <td>None</td>
+      <td>False</td>
+      <td>False</td>
+      <td>2.6154</td>
+      <td>{'h': 52, 'l': 65, 's': 0, 'percentage': 0.28812794668119557, 'population': 1999}</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>False</td>
+      <td>&lt;p&gt;On loan to Sterling and Francine Clark Art Institute in Williamstown for &lt;i&gt;Rodin in the United States: Confronting the Modern&lt;/i&gt;&lt;/p&gt;</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Sculpture</td>
+      <td>3</td>
+      <td>Painting and Sculpture of Europe</td>
+      <td>PC-10</td>
+      <td>36418</td>
+      <td>Auguste Rodin</td>
+      <td>[]</td>
+      <td>[36418]</td>
+      <td>[Auguste Rodin]</td>
+      <td>[PC-10]</td>
+      <td>[Painting and Sculpture of Europe]</td>
+      <td>[bust/head, bronze, copper alloy, nonferrous metal, metal, inorganic material, sculpture]</td>
+      <td>None</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>TM-347</td>
+      <td>bust/head</td>
+      <td>[TM-13]</td>
+      <td>[TM-347, TM-13]</td>
+      <td>[bust/head, sculpture]</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>TM-2430</td>
+      <td>[TM-2694, TM-2683, TM-2568, TM-2600]</td>
+      <td>[TM-2430, TM-2694, TM-2683, TM-2568, TM-2600]</td>
+      <td>[bronze, copper alloy, nonferrous metal, metal, inorganic material]</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>0377f007-2251-af1f-e997-ac44217b6651</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[{'input': ['1931.502'], 'contexts': {'groupings': ['accession']}}, {'input': ['Head of Arthur Jerome Eddy'], 'weight': 929, 'contexts': {'groupings': ['title']}}]</td>
+      <td>2022-09-10T00:30:14-05:00</td>
+      <td>2022-09-10T00:32:58-05:00</td>
+      <td>2022-09-10T08:51:47-05:00</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>18754</td>
+      <td>artworks</td>
+      <td>https://api.artic.edu/api/v1/artworks/18754</td>
+      <td>False</td>
+      <td>Bust of a Woman</td>
+      <td>None</td>
+      <td>{'lqip': 'data:image/gif;base64,R0lGODlhBAAFAPQAAElGS1FNTlJPUXZzdHt6eo2LiZGPj6ampbq6tr/Au8TFvMTGvsrKxc3Ox97g2uLj3eTl3uvs5u3u6e7v6gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoJIUDXQMEQMQ0yIEzoMYUggAOw==', 'width': 5032, 'height': 6493, 'alt_text': 'A work made of bronze.'}</td>
+      <td>1963.840</td>
+      <td>False</td>
+      <td>None</td>
+      <td>1851</td>
+      <td>1851</td>
+      <td>1851</td>
+      <td></td>
+      <td>None</td>
+      <td>Charles Henri Joseph Cordier\nFrench, 1827-1905\nCast by: Eck et Durand Fondeur\nFrench, 19th century</td>
+      <td>France</td>
+      <td>H. 71.5 x 40.6 x 29.2 cm (30 1/2 x 16 x 11 1/2 in.) (with socle)\nH. 62.2 cm (27 1/4 in.) (without socle)</td>
+      <td>Bronze</td>
+      <td>Inscribed and dated:  1851 / CCORDIER</td>
+      <td>Ada Turnbull Hertle Endowment</td>
+      <td>None</td>
+      <td>"R. &amp; M. Andrade," Apollo 121, 423 (1960), p. x.\n\nArt Institute of Chicago, Annual Report, 1963-64, p. 19.\n\nJohn Maxon, Art Institute of Chicago Quarterly 58, 1 (1964).\n\nS. Réveilluad Kriz, L'Odyssée d'un peintre: Drouet Réveilluad (Paris: Fischbacher, 1973), p. 17.\n\nInstitut für Auslandsbeziehungen, Württembergischer Kunstverein, Exotische Welten, Europäsische phantasien (1987), pp. 357, 491, no. 3.62.\n\nNew York, Charles Janoray, LLC, A Golden Age of French Sculpture, 1850-1900 (2003), p. 40, fig. 2.\n\nParis, Musée d'Orsay, Charles Cordier, 1827-1905: l'autre et l'ailleurs (2004), pp. 19, 205, no. 475.\n\nFor comparison, see:\n\nStanislas Lami, Dictionnaire des sculpteurs de l’école Francaise au dix-neuviéme siècle 1, reprint (Liechtenstein, 1970), p. 417.\n\nHugh Honour, The Image of the Black in Western Art IV, 2 (Cambridge, MA, 1976-1989), pp. 100-02, fig. 72.\n\nJeannine Durand-Revillon, "Un promoteur de la sculpture polychrome sous le Second Empire, Charles-Henri-Joseph Cordier (1827-1905)," Soc. Hist. Art Francais (1982), p. 192.\n\nHermann Pollig, et al, Exotische Welten, Europäsische Phantasien (Stuttgart, 1987), pp. 357, 491, no. 3.62.\n\nAntoinette Le Normand-Romain, et al, La Sculpture ethnographique, de la Vénus hottentote à la Tehura de Gauguin (Paris, 1994), p. 55, no. 33.\n\nElyse Nelson and Wendy S. Walters, eds., Fictions of Emancipation: Carpeaux's Why Born Enslaved! Reconsidered, exh. cat. (New Haven and London: Yale University Press, 2022), 50, 53, pl. 30, 67-9, 94.</td>
+      <td>New York, The Metropolitan Museum of Art, Fictions of Emancipation: Carpeaux's Why Born Enslaved! Reconsidered, Mar. 7, 2022-Mar. 5, 2023, pl. 30.</td>
+      <td>Cast in Paris, 1851 and believed to be the original pair cast for the artist [see letter from Gerald Kerin in curatorial object file].  Sold directly by the artist to an English (Devon) private collector, 1851 [according to letter from William Redford, in curatorial file; Cordier brought ethnographic busts to the 1862 London Exposition, see Exotische Welten, p. 357].  Purchased from same collector by William Redford, the agent for Gerald Kerin, Ltd. [see same letter in curatorial file].  Sold by Gerald Kerin, Ltd. to the Art Institute, 1963.</td>
+      <td>Web Cataloged</td>
+      <td>14</td>
+      <td>1964</td>
+      <td>None</td>
+      <td>True</td>
+      <td>True</td>
+      <td>-1</td>
+      <td>None</td>
+      <td>True</td>
+      <td>False</td>
+      <td>5.0955</td>
+      <td>{'h': 339, 'l': 50, 's': 3, 'percentage': 0.007632056381271369, 'population': 70}</td>
+      <td>41.879806</td>
+      <td>-87.623308</td>
+      <td>41.879806164075,41.879806164075</td>
+      <td>False</td>
+      <td>&lt;p&gt;On loan to The Metropolitan Museum of Art in New York City for &lt;i&gt;Fictions of Emancipation: Carpeaux Recast&lt;/i&gt;&lt;/p&gt;</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Sculpture</td>
+      <td>3</td>
+      <td>Painting and Sculpture of Europe</td>
+      <td>PC-10</td>
+      <td>5301</td>
+      <td>Charles Henri Joseph Cordier</td>
+      <td>[]</td>
+      <td>[5301]</td>
+      <td>[Charles Henri Joseph Cordier]</td>
+      <td>[PC-10]</td>
+      <td>[Painting and Sculpture of Europe]</td>
+      <td>[bronze, sculpture, bust/head, copper alloy, nonferrous metal, metal, inorganic material]</td>
+      <td>None</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>TM-13</td>
+      <td>sculpture</td>
+      <td>[TM-347]</td>
+      <td>[TM-13, TM-347]</td>
+      <td>[sculpture, bust/head]</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>TM-2430</td>
+      <td>[TM-2694, TM-2683, TM-2568, TM-2600]</td>
+      <td>[TM-2430, TM-2694, TM-2683, TM-2568, TM-2600]</td>
+      <td>[bronze, copper alloy, nonferrous metal, metal, inorganic material]</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>725d19ab-4bd4-e640-86f2-a119e0a154e0</td>
+      <td>[]</td>
+      <td>[cb00e703-1452-422c-b2cc-72857a172537]</td>
+      <td>[cb00e703-1452-422c-b2cc-72857a172537]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[{'input': ['1963.840'], 'contexts': {'groupings': ['accession']}}, {'input': ['Bust of a Woman'], 'weight': 7232, 'contexts': {'groupings': ['title']}}]</td>
+      <td>2022-09-10T00:30:14-05:00</td>
+      <td>2022-09-10T00:32:57-05:00</td>
+      <td>2022-09-10T08:51:47-05:00</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>21727</td>
+      <td>artworks</td>
+      <td>https://api.artic.edu/api/v1/artworks/21727</td>
+      <td>False</td>
+      <td>Thanksgiving</td>
+      <td>None</td>
+      <td>{'lqip': 'data:image/gif;base64,R0lGODlhBwAFAPUAAEM6NVA+NlFGPlxIPlNHQGRTR2lTRmxWTGtfTnVaSXdbSXJdTndcTXFiUX5mU39sW3NxZXxzYX51Y316aYBgTYtsWoh1XpFwXYJ9bZR2Ypd+bI2AZ5qJb5GJc5CMd5CPfpaRfZaSfbGKcQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQNAn5MFAJh3JBjEIRASNRyFB4QAIGY3CYVkcKqKLgREEADs=', 'width': 8300, 'height': 5816, 'alt_text': 'A chaotic but happy kitchen scene: A light-skinned woman in a pink dress at left bends to take a turkey out of the oven, while another at right forms a pie near a small girl playing with a kitten. Behind them, a woman selects dishware as yet another carries a basket of ingredients. A fifth woman in the back puts on a fancy hat and coat near a pair of babies reaching out from their twin high chair.'}</td>
+      <td>1935.313</td>
+      <td>False</td>
+      <td>None</td>
+      <td>1935</td>
+      <td>1935</td>
+      <td>c. 1935</td>
+      <td>c.</td>
+      <td>60</td>
+      <td>Doris Lee\nAmerican, 1905–1983</td>
+      <td>United States</td>
+      <td>71.3 × 101.8 cm (28 1/8 × 40 1/8 in.)</td>
+      <td>Oil on canvas</td>
+      <td>Signed lower right: Doris Lee</td>
+      <td>Mr. and Mrs. Frank G. Logan Purchase Prize Fund</td>
+      <td>None</td>
+      <td>C.J. Bulliet, “Around the Galleries,” Chicago Daily News, October 26, 1935.\n\n"'If This Is American Art, Let's Scrap It,' Says Critic of Chicago Show," Art Digest 10, 3 (Nov. 1, 1935): 5, ill.\n\nVirginia Gardner, “Calls Prize Canvas Atrocious,” Chicago Tribune, November 6, 1935.\n\n"Awards Shock Art Patrons: Mrs. Logan Terms Pictures 'Vulgar' and 'Indecent,'" Herald–Examiner, November 8, 1935.\n\n“Controversy Continues over Merits of American Art Exhibition,” Chicago Tribune, November 8, 1935, 5, ill.\n\n“Art Show Gives “Jitters” to Mrs. Logan,” Chicago American, November 9, 1935.\n\n“Doris Emrick Lee Picture Shown at Chicago,” Carthage, Illinois Republican, November 13, 1935.\n\nGifford Ernest, “New Art Institute Show Reveals Depression Used for Ideas in Paintings,” Chicago Daily News, November 15, 1935, 40.\n\n“Doris Lee’s ‘Americana’ Shown in New York,” Art Digest 10, 12 (March 15, 1936): 20.\n\n“Doris Lee One–Woman’s It At The Walker Gallery,” American Magazine of Art 29 (May 1936): 334.\n\n“Doris Lee: An American Painter with a Humorous Sense of Violence,” Life, September 20, 1937, 44.\n\nJosephine Hancock Logan, Sanity in Art (Chicago: A. Kroch, 1937), 92 (ill.).\n\n“Chicago Surveys Half Century of Native Art,” Art Digest 14, 4 (November 1939): 9, 34.\n\n“Worcester Surveys a Decade of American Painting, 1930–1940,” Art Digest 16, 11 (March 1942): 5 (ill.).\n\n“A Decade of American Painting, 1930–1940,” Worcester Art Museum News Bulletin and Calendar 7, 6 (March 1942): 1 (ill.).\n\nAlfred M. Frankfurter, “Only Yesterday in American Painting: Worcester Shows 50 Pictures of the Turbulent 30s,” Art News 41, 2 (March 1942): 10 (ill.).\n\nDoris Lee, Doris Lee (American Artists Group, 1946), 6, 7 (ill.).\n\nCharles Fabens Kelley, “Chicago: Record Years,” Art News 51, 4 (June–August 1952), 69 (ill.).\n\nArt Institute of Chicago, Masterpieces in the Art Institute of Chicago (Art Institute of Chicago, 1952), n.p. (ill.).\n\nKenneth Shopen, “Painting that Raised a Storm now Symbol of Thanksgiving,” Chicago Daily News, November 23, 1953.\n\nMary Anne Guitar, “Close–up of the Artist…Doris Lee,” Famous Artists Magazine, Winter 1959, 23 (ill.).\n\nArt Institute of Chicago, Paintings in the Art Institute of Chicago (Art Institute of Chicago, 1961), 257.\n\n“Beeline,” Chicago Daily News, November 27, 1974.\n\nMatthew Baigell, The American Scene: American Painting of the 1930s (New York: Praeger, 1974), 59, pl. 11.\n\nCharlotte Moser, “’In the Highest Efficiency’: Art Training at the School of the Art Institute of Chicago,” in The Old Guard and the Avant–Garde: Modernism in Chicago, 1910–1940, ed. Sue Ann Prince (University of Chicago Press, 1990), 207–208.\n\nDeedee Wigmore, Doris Lee: Images of Delight 1930–1950 (D. Wigmore Fine Art, Inc., 1996), 3.\n\nTodd D. Smith, “Painting for the Middlebrow: Doris Lee and the Making of a Popular Artist,” in American Art from the Dicke Collection, exh. cat., (Dayton, OH: Dayton Art Institute, 1997), 33 (ill.), 34, 39–42.\n\nJudith A. Barter et al., American Modernism at the Art Institute of Chicago, From World War I to 1955, (Chicago: Art Institute of Chicago/Yale University Press, 2009), no. 81.\n\nJessica Skwire Routhier, "The Art of Doris Lee," Antiques and The Arts Weekly, Sept 17, 2021, 30-31 (Ill.).\n\nMeredith Mendelsohn, "Doris Lee, Unjustly Forgotten, Gets a Belated but Full Blown Tribute," The New York Times, last updated Dec 30, 2021, &lt;a href="http://nytimes.com/2021/12/30/arts/design/doris-lee-overlooked-artist-exhibition.html"&gt;http://nytimes.com/2021/12/30/arts/design/doris-lee-overlooked-artist-exhibition.html&lt;/a&gt; (ill.).</td>
+      <td>Washington, DC, Corcoran Gallery of Art, Fourteenth Biennial Exhibition of Contemporary American Oil Paintings, Mar 24–May 5, 1935, cat. 220.\n\nArt Institute of Chicago, Forty–Sixth Annual Exhibition of American Paintings and Sculpture, Oct 24–Dec 8, 1935, cat. 123.\n\nArt Institute of Chicago, Half a Century of American Art, Nov 16–Jan 7, 1940, cat. 101.\n\nMontclair Art Museum, NJ, America Yesterday and Today, Jan 2–26, 1941, cat. 35.\n\nWorcester Art Museum, MA, A Decade of American Painting: 1930–1940, Feb 18–Mar 22, 1942, p. 18.\n\nBrussels, Galerie Georges Giroux, L’Exposition d’art Américain contemporain, Mar 20–Apr 10, 1948, cat. 60.\n\nCoral Gables, FL, Miami University Art Gallery, Sep 29–Nov 15, 1950, no. cat.\n\nDallas Museum of Fine Arts, Famous Paintings and Famous Painters, Oct 4–Nov 2, 1958, cat. 21.\n\nDenver Art Museum, The American Panorama, Mar 17–May 27, 1968, no cat.\n\nColumbus, OH, Ohio State University Art Gallery, America, ca. 1930, Oct 12–31, 1968, no cat.\n\nPoughkeepsie, NY, Vassar College Art Gallery, Seven American Women: The Depression Decade, Jan 19–Mar 5, 1976, cat. 52.\n\nWichita Art Museum, The Neglected Generation of American Realist Painters: 1930–1948, May 3–Jun 14, 1981, fig. 27.\n\nRoslyn Harbor, NY, Nassau County Museum of Art, American Realism Between the Wars: 1919–1941, Apr 10–Jun 5, 1994, pp. 18–21, 61, fig. 21.\n\nArt Institute of Chicago, Art and Appetite: American Painting, Culture, and Cuisine, Nov 10, 2013–Jan 27, 2014, cat. 32; Fort Worth, Amon Carter Museum of American Art, Feb 22–May 18, 2014.\n\nArt Institute of Chicago, America After the Fall: Painting in the 1930s, Jun 5–Sep 18, 2016, cat. 30; Paris, Musée de l'Orangerie, Oct 15, 2016–Jan 30, 2017; London, Royal Academy, Feb 25–Jun 4, 2017.\n\nShanghai Museum, Pathways to Modernism: American Art, 1865–1945, Sep 28, 2018–Jan 6, 2019, cat. 61.\n\nGreensburg, PA, Westmoreland Museum of American Art, Simple Pleasures: The Art of Doris Lee, Sept 26, 2021–Jan 9, 2022, cat.; Davenport, IA, Figge Art Museum, Feb 5–May 8, 2022; Vero Beach, FL, Vero Beach Museum of Art, Jun 5–Sept 18, 2022; Memphis, TN, Dixon Gallery and Gardens, Oct 30, 2022–Jan 15, 2023 (Greensburg, Davenport, and Vero Beach only).</td>
+      <td>Doris Lee (1905–1983), c. 1935; sold to the Art Institute of Chicago, 1935.</td>
+      <td>Web Cataloged</td>
+      <td>21</td>
+      <td>1936</td>
+      <td>None</td>
+      <td>False</td>
+      <td>True</td>
+      <td>-1</td>
+      <td>None</td>
+      <td>False</td>
+      <td>False</td>
+      <td>30.1231</td>
+      <td>{'h': 37, 'l': 57, 's': 19, 'percentage': 0.43314807120649207, 'population': 2158}</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>False</td>
+      <td>&lt;p&gt;On loan to Vero Beach Museum of Art in Florida for &lt;i&gt;Simple Pleasures: The Art of Doris Lee&lt;/i&gt;&lt;/p&gt;</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Painting</td>
+      <td>1</td>
+      <td>Arts of the Americas</td>
+      <td>PC-3</td>
+      <td>15033</td>
+      <td>Doris Lee</td>
+      <td>[]</td>
+      <td>[15033]</td>
+      <td>[Doris Lee]</td>
+      <td>[PC-825, PC-3]</td>
+      <td>[Women artists, Arts of the Americas]</td>
+      <td>[painting, oil paint (paint), Modernism, canvas, modern and contemporary art]</td>
+      <td>TM-5981</td>
+      <td>Modernism</td>
+      <td>[]</td>
+      <td>[TM-5981]</td>
+      <td>[Modernism]</td>
+      <td>TM-9</td>
+      <td>painting</td>
+      <td>[TM-155]</td>
+      <td>[TM-9, TM-155]</td>
+      <td>[painting, modern and contemporary art]</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>TM-2451</td>
+      <td>[TM-3124]</td>
+      <td>[TM-2451, TM-3124]</td>
+      <td>[oil paint (paint), canvas]</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[Women artists]</td>
+      <td>d388928f-3222-b48c-1cbb-7afa917de928</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[{'input': ['1935.313'], 'contexts': {'groupings': ['accession']}}, {'input': ['Thanksgiving'], 'weight': 30492, 'contexts': {'groupings': ['title']}}]</td>
+      <td>2022-09-10T00:30:14-05:00</td>
+      <td>2022-09-10T00:32:56-05:00</td>
+      <td>2022-09-10T08:51:47-05:00</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>18759</td>
+      <td>artworks</td>
+      <td>https://api.artic.edu/api/v1/artworks/18759</td>
+      <td>False</td>
+      <td>Helmet Mask (Kponyungo)</td>
+      <td>None</td>
+      <td>{'lqip': 'data:image/gif;base64,R0lGODlhBgAFAPQAAAcICAYICQgICAkKCgsLCwwMDQwNDR8dHC8nITQqIjEtKzIwKz00Kjk1Mjw6OEM6M0k+M1dKQlBKRVdVVG5qZmxsbHd5eoJ/fJubnJ6enqampKipqa+urgAAAAAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUY4FAEAEEgyaMYgiNFUHNU1rQwVMZt2KWFADs=', 'width': 9376, 'height': 7379, 'alt_text': 'A work made of wood and pigment.'}</td>
+      <td>1963.842</td>
+      <td>False</td>
+      <td>None</td>
+      <td>1850</td>
+      <td>1950</td>
+      <td>19th to early 20th century</td>
+      <td></td>
+      <td>None</td>
+      <td>Senufo: Senambele\nCôte d'Ivoire\nNorthern Africa and the Sahel</td>
+      <td>Côte d'Ivoire</td>
+      <td>27.9 × 27.3 × 102.9 cm (11 × 10 3/4 × 40 1/2 in.)</td>
+      <td>Wood and pigment</td>
+      <td>None</td>
+      <td>African and Amerindian Art Purchase Fund</td>
+      <td>None</td>
+      <td>Museum of Primitive Art, Senufo Sculpture from West Africa (The Museum of Primitive Art, New York, 1963), cat. 34.\n\nAllen Wardwell, Primitive Art in the Collections of the Art Institute of Chicago (Art Institute of Chicago, 1965), fig. 65 (ill.)\n\nThe Art of Black Africa, exh. cat. (Flint Institute of Arts Exhibition, 1970), cat. 62 (ill.).\n\nPortland Museum of Art, Tribal Art of West Africa, exh. cat. (Portland Museum of Art, 1971), pl. 20.\n\nFrank Willet, African Art: An Introduction (New York and Toronto: Oxford University Press, 1971; repr. Thames and Hudson, 1993), p. 150, fig. 139.\n\nWarren M. Robbins and Nancy Ingram Nooter, African Art in American Collections (Washington and London: Smithsonian Institution Press, 1989), p. 117, fig. 164 (ill.).\n\nKathleen Bickford Berzock, “Art of the Western Sudan; African Art at the Art Institute of Chicago,” The Art Institute of Chicago Museum Studies 23, 2 (1997), pp. 117-118, fig. 10.\n\nWilliam J. Dewey, The World Moves, We Follow: Celebrating African Art, exh. cat. (Knoxville, Tenn.: Frank H. McClung Museum, University of Tennessee, 2003), p. 33, pl. 31.\n\nSusan Elizabeth Gagliardi, Senufo: Dynamics of Art and Identity in West Africa (The Cleveland Museum of Art and 5 Continents Press, 2015), p. 94.\n\nConstantine Petridis et al., Speaking of Objects: African Art at the Art Institute of Chicago (Chicago: Art Institute of Chicago, 2020), cat. no. 13, pp. 50-51 (ill.).\n\nConstantine Petridis, ed., The Language of Beauty in African Art, ex. cat. (Yale University Press, 2022), cat. no. 260, p. 281 (ill.).</td>
+      <td>New York, N.Y., The Museum of Primitive Art, Senufo Sculpture from West Africa, Feb. 20-May 5, 1963, cat. 34; traveled to the Art Institute of Chicago, July 12-Aug. 11, 1963; the Baltimore Museum of Art, Sep. 17-Oct. 27, 1963.\n\nFlint, Mich., Flint Institute of Arts, The Art of Black Africa, Feb. 8-April 5, 1970, cat. 62\n\nPortland, Maine, Portland Museum of Art, Tribal Art of West Africa, Sep. 16–Oct. 31, 1971, cat. 20.\n\nArt Institute of Chicago, Spiritual Expressions: Art for Private Contemplation and Public Ceremony, Nov. 22, 1995–March 17, 1996, Gallery 142, no cat., brochure (ill.).\n\nKnoxville, Tenn., Frank H. McClung Museum, The World Moves, We Follow: Celebrating African Art, Jan. 10–May 18, 2003, cat. 31.\n\nCleveland Museum of Art, Senufo: Dynamics of Art and Identity in West Africa, Feb. 22–May 31, 2015, cat. 60; traveled to Saint Louis Art Museum, June 28–Sept. 27, 2015; Montpellier, France, Musée Fabre, Nov. 28, 2015–March 6, 2016 (Cleveland and Saint Louis only).</td>
+      <td>Henri (died 1992) and Hélène (ex-Kamer) Leloup, Henri A. Kamer Gallery, New York, N.Y., by 1963 [in Senfuo Sculpture from West Africa, 1963, cat. 34, listed as Collection Mr. and Mrs. Henri A. Kamer, New York]; sold to the Art Institute, Nov. 1963.</td>
+      <td>Web Cataloged</td>
+      <td>43</td>
+      <td>None</td>
+      <td>None</td>
+      <td>False</td>
+      <td>True</td>
+      <td>-1</td>
+      <td>None</td>
+      <td>False</td>
+      <td>False</td>
+      <td>13.3292</td>
+      <td>{'h': 246, 'l': 47, 's': 0, 'percentage': 0.04859294830567823, 'population': 272}</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>False</td>
+      <td>&lt;p&gt;On loan&lt;/p&gt;</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Mask</td>
+      <td>7</td>
+      <td>Arts of Africa</td>
+      <td>PC-1</td>
+      <td>30074</td>
+      <td>Senufo</td>
+      <td>[]</td>
+      <td>[30074]</td>
+      <td>[Senufo]</td>
+      <td>[PC-1]</td>
+      <td>[Arts of Africa]</td>
+      <td>[wood (plant material), senufo, masks, masks, carving, Northern Africa and the Sahel, arts of Africa, Arts of Africa, hyena, pigment, crocodiles, african art, african Art, ceremonial mask, animals, painting (coating), antelope, ram, composite, ancestors, supernatural, performance, funerals, protector]</td>
+      <td>TM-6334</td>
+      <td>senufo</td>
+      <td>[TM-13551, TM-14183, TM-13489]</td>
+      <td>[TM-6334, TM-13551, TM-14183, TM-13489]</td>
+      <td>[senufo, Northern Africa and the Sahel, Arts of Africa, african Art]</td>
+      <td>TM-245</td>
+      <td>masks</td>
+      <td>[TM-14182, TM-13486, TM-12149]</td>
+      <td>[TM-245, TM-14182, TM-13486, TM-12149]</td>
+      <td>[masks, arts of Africa, african art, ceremonial mask]</td>
+      <td>TM-12113</td>
+      <td>[TM-13559, TM-13557, TM-12218, TM-12427, TM-13558, TM-12874, TM-12147, TM-12867, TM-12949, TM-13472, TM-13609]</td>
+      <td>[TM-12113, TM-13559, TM-13557, TM-12218, TM-12427, TM-13558, TM-12874, TM-12147, TM-12867, TM-12949, TM-13472, TM-13609]</td>
+      <td>[masks, hyena, crocodiles, animals, antelope, ram, composite, ancestors, supernatural, performance, funerals, protector]</td>
+      <td>TM-2431</td>
+      <td>[TM-2509]</td>
+      <td>[TM-2431, TM-2509]</td>
+      <td>[wood (plant material), pigment]</td>
+      <td>TM-3863</td>
+      <td>[TM-4005]</td>
+      <td>[TM-3863, TM-4005]</td>
+      <td>[carving, painting (coating)]</td>
+      <td>[]</td>
+      <td>a6b0bddb-5593-2970-baed-a677eaaa9a25</td>
+      <td>[a9678cf4-41b2-9334-21a4-e7864aaac4f1]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[{'input': ['1963.842'], 'contexts': {'groupings': ['accession']}}, {'input': ['Helmet Mask (Kponyungo)'], 'weight': 5458, 'contexts': {'groupings': ['title']}}]</td>
+      <td>2022-09-10T00:30:14-05:00</td>
+      <td>2022-09-10T00:32:56-05:00</td>
+      <td>2022-09-10T08:51:47-05:00</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>29669</td>
+      <td>artworks</td>
+      <td>https://api.artic.edu/api/v1/artworks/29669</td>
+      <td>False</td>
+      <td>Weary</td>
+      <td>None</td>
+      <td>{'lqip': 'data:image/gif;base64,R0lGODlhAwAFAPMAAJGOeMG+qcXCrcbDscrHsNHOudLPudPQvtXSvdfUwNbUwdjVweDezeLfzuLg0AAAACH5BAAAAAAALAAAAAADAAUAAAQLUI0jQCgEJbNcYxEAOw==', 'width': 2336, 'height': 3504, 'alt_text': 'A work made of drypoint in black ink on cream japanese paper.'}</td>
+      <td>1938.1942</td>
+      <td>True</td>
+      <td>None</td>
+      <td>1863</td>
+      <td>1863</td>
+      <td>1863</td>
+      <td>Made</td>
+      <td>4</td>
+      <td>James McNeill Whistler\nAmerican, 1834-1903</td>
+      <td>United States</td>
+      <td>198 × 131 mm (plate); 262 × 184 mm (sheet)</td>
+      <td>Drypoint in black ink on cream Japanese paper</td>
+      <td>None</td>
+      <td>Clarence Buckingham Collection</td>
+      <td>&lt;p&gt;Kennedy 92 IIa/III&lt;/p&gt;&lt;p&gt;Lochnan 96&lt;/p&gt;&lt;p&gt;Mansfield 92&lt;/p&gt;&lt;p&gt;Glasgow 93 IV/VI&lt;/p&gt;</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Web Basic</td>
+      <td>3</td>
+      <td>None</td>
+      <td>None</td>
+      <td>True</td>
+      <td>True</td>
+      <td>-1</td>
+      <td>None</td>
+      <td>False</td>
+      <td>False</td>
+      <td>10.6979</td>
+      <td>{'h': 52, 'l': 44, 's': 22, 'percentage': 0.0009377388303583568, 'population': 10}</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>False</td>
+      <td>&lt;p&gt;On loan to National Gallery of Art in Washington for &lt;i&gt;The Woman in White: Joanna Hiffernan and James McNeill Whistler&lt;/i&gt;&lt;/p&gt;</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Print</td>
+      <td>18</td>
+      <td>Prints and Drawings</td>
+      <td>PC-13</td>
+      <td>37279</td>
+      <td>James McNeill Whistler</td>
+      <td>[]</td>
+      <td>[37279]</td>
+      <td>[James McNeill Whistler]</td>
+      <td>[PC-13]</td>
+      <td>[Prints and Drawings]</td>
+      <td>[drypoint, paper (fiber product), print, prints and drawing, ink, paper, japanese paper]</td>
+      <td>None</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>TM-154</td>
+      <td>drypoint</td>
+      <td>[TM-17, TM-4, TM-145]</td>
+      <td>[TM-154, TM-17, TM-4, TM-145]</td>
+      <td>[drypoint, print, prints and drawing, paper]</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>TM-2982</td>
+      <td>[TM-2398, TM-2997]</td>
+      <td>[TM-2982, TM-2398, TM-2997]</td>
+      <td>[paper (fiber product), ink, japanese paper]</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>4d010c1b-dc95-2787-e224-bdb9baac1cb0</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[{'input': ['1938.1942'], 'contexts': {'groupings': ['accession']}}, {'input': ['Weary'], 'weight': 1, 'contexts': {'groupings': ['title']}}]</td>
+      <td>2022-09-10T00:30:14-05:00</td>
+      <td>2022-09-10T00:32:55-05:00</td>
+      <td>2022-09-10T08:51:47-05:00</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>30731</td>
+      <td>artworks</td>
+      <td>https://api.artic.edu/api/v1/artworks/30731</td>
+      <td>False</td>
+      <td>Figure (Mbulu Ngulu)</td>
+      <td>None</td>
+      <td>{'lqip': 'data:image/gif;base64,R0lGODlhAwAFAPMAAHNjTHRuaoaAd5aOh6ainKOioqenpquopKurqq6trLGvrLKysbW0s7S0tLq6uQAAACH5BAAAAAAALAAAAAADAAUAAAQLkBF3gEpilWDQaBEAOw==', 'width': 5572, 'height': 9982, 'alt_text': 'A work made of wood, brass, and ivory.'}</td>
+      <td>1968.788</td>
+      <td>False</td>
+      <td>None</td>
+      <td>1875</td>
+      <td>1925</td>
+      <td>Late 19th-early 20th century</td>
+      <td></td>
+      <td>None</td>
+      <td>Kota: Shamaye\nGabon\nCentral Africa</td>
+      <td>Gabon</td>
+      <td>H. 34.3 cm (13 1/2 in.)</td>
+      <td>Wood, brass, and ivory</td>
+      <td>None</td>
+      <td>Purchased with funds provided by the Alsdorf Foundation</td>
+      <td>None</td>
+      <td>Allen Wardwell, “New Acquisitions of African Art at the Art Institute of Chicago,” African Arts, vol. 4, no. 1 (1970), p. 19, fig. 7.\n\nLouis Perrois, “L’Art Kota-Mahongwe,” Arts d’Afrique Noire, vol. 20 (Winter 1976), pp. 1–37; p.33 (ill.).\n\nConstantine Petridis et al., Speaking of Objects: African Art at the Art Institute of Chicago (Chicago: Art Institute of Chicago, 2020), cat. no. 54, pp. 138-139 (ill.).</td>
+      <td>None</td>
+      <td>Henri (died 1992) and Hélène Kamer (later Hélène Leloup), Henri A. Kamer Gallery, New York, NY, by 1968 [incoming purchase consideration documented in curatorial file]; sold to the Art Institute, 1968.</td>
+      <td>Web Cataloged</td>
+      <td>43</td>
+      <td>1969</td>
+      <td>None</td>
+      <td>False</td>
+      <td>False</td>
+      <td>843</td>
+      <td>None</td>
+      <td>False</td>
+      <td>False</td>
+      <td>16.2397</td>
+      <td>{'h': 145, 'l': 49, 's': 5, 'percentage': 0.0007855891525849812, 'population': 10}</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>False</td>
+      <td>&lt;p&gt;On loan&lt;/p&gt;</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Sculpture</td>
+      <td>3</td>
+      <td>Arts of Africa</td>
+      <td>PC-1</td>
+      <td>30171</td>
+      <td>Kota</td>
+      <td>[]</td>
+      <td>[30171]</td>
+      <td>[Kota]</td>
+      <td>[PC-1]</td>
+      <td>[Arts of Africa]</td>
+      <td>[wood (plant material), sculpture, ancestors, shamaye, carving, arts of Africa, Arts of Africa, ivory, brass (alloy), metal, inlay (process), kota, african Art, funerary, african art, metalworking, Central Africa, guardian, deceased, reliquary]</td>
+      <td>TM-13041</td>
+      <td>shamaye</td>
+      <td>[TM-14183, TM-8214, TM-13489, TM-13564]</td>
+      <td>[TM-13041, TM-14183, TM-8214, TM-13489, TM-13564]</td>
+      <td>[shamaye, Arts of Africa, kota, african Art, Central Africa]</td>
+      <td>TM-13</td>
+      <td>sculpture</td>
+      <td>[TM-14182, TM-11076, TM-13486]</td>
+      <td>[TM-13, TM-14182, TM-11076, TM-13486]</td>
+      <td>[sculpture, arts of Africa, funerary, african art]</td>
+      <td>TM-12147</td>
+      <td>[TM-13632, TM-12922, TM-14360]</td>
+      <td>[TM-12147, TM-13632, TM-12922, TM-14360]</td>
+      <td>[ancestors, guardian, deceased, reliquary]</td>
+      <td>TM-2431</td>
+      <td>[TM-2442, TM-2460, TM-2568]</td>
+      <td>[TM-2431, TM-2442, TM-2460, TM-2568]</td>
+      <td>[wood (plant material), ivory, brass (alloy), metal]</td>
+      <td>TM-3863</td>
+      <td>[TM-3884, TM-4152]</td>
+      <td>[TM-3863, TM-3884, TM-4152]</td>
+      <td>[carving, inlay (process), metalworking]</td>
+      <td>[]</td>
+      <td>e0e310b6-17a3-60c0-f9b5-2631abe9689c</td>
+      <td>[34eadae4-3bd1-0eaa-01e6-6e99a0f70142, 8dca4fc2-fc5f-e6dd-b693-a22fb52b10ef]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[{'input': ['1968.788'], 'contexts': {'groupings': ['accession']}}, {'input': ['Figure (Mbulu Ngulu)'], 'weight': 599, 'contexts': {'groupings': ['title']}}]</td>
+      <td>2022-09-10T00:30:14-05:00</td>
+      <td>2022-09-10T00:32:54-05:00</td>
+      <td>2022-09-10T08:51:47-05:00</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>30661</td>
+      <td>artworks</td>
+      <td>https://api.artic.edu/api/v1/artworks/30661</td>
+      <td>False</td>
+      <td>Khamsa Standard</td>
+      <td>None</td>
+      <td>{'lqip': 'data:image/gif;base64,R0lGODlhAwAFAPMAAGVXRHhnUoV+d4OAfYqFfouFfoeHhoqHhIiHiJeSjJuamKCfnqGhoKqpqKqqqAAAACH5BAAAAAAALAAAAAADAAUAAAQLEA1zAikgLcGachEAOw==', 'width': 4185, 'height': 5947, 'alt_text': 'A work made of brass, with silver.'}</td>
+      <td>1926.1149</td>
+      <td>False</td>
+      <td>None</td>
+      <td>1813</td>
+      <td>1823</td>
+      <td>Qajar dynasty (1789-1925), ca. early 19 th century</td>
+      <td></td>
+      <td>None</td>
+      <td>Iran</td>
+      <td>Iran</td>
+      <td>36.7 × 19.4 × 4.1 cm (14 1/2 × 7 5/8 × 1 5/8 in.)</td>
+      <td>Brass, with silver</td>
+      <td>None</td>
+      <td>Logan-Patten-Ryerson Collection</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Web Basic</td>
+      <td>8</td>
+      <td>1927</td>
+      <td>None</td>
+      <td>True</td>
+      <td>True</td>
+      <td>-1</td>
+      <td>None</td>
+      <td>False</td>
+      <td>False</td>
+      <td>17.924</td>
+      <td>{'h': 37, 'l': 63, 's': 40, 'percentage': 0.0013862566515564691, 'population': 14}</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>False</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Religious/Ritual Object</td>
+      <td>24</td>
+      <td>Arts of Asia</td>
+      <td>PC-7</td>
+      <td>29882</td>
+      <td>Islamic</td>
+      <td>[]</td>
+      <td>[29882]</td>
+      <td>[Islamic]</td>
+      <td>[PC-7]</td>
+      <td>[Arts of Asia]</td>
+      <td>[brass, brass (alloy), metalwork, asian art, ritual objects, Islamic (culture or style)]</td>
+      <td>None</td>
+      <td>None</td>
+      <td>[TM-13482]</td>
+      <td>[TM-13482]</td>
+      <td>[Islamic (culture or style)]</td>
+      <td>TM-132</td>
+      <td>brass</td>
+      <td>[TM-29, TM-26, TM-12318]</td>
+      <td>[TM-132, TM-29, TM-26, TM-12318]</td>
+      <td>[brass, metalwork, asian art, ritual objects]</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>TM-2460</td>
+      <td>[]</td>
+      <td>[TM-2460]</td>
+      <td>[brass (alloy)]</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>b81eb149-737c-0c3b-146e-3de2c3bef13a</td>
+      <td>[b1171a78-7a07-29eb-1bb4-63cdc747493b, 780ba33c-d7e3-89e0-4535-e421ed6255f1]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[{'input': ['1926.1149'], 'contexts': {'groupings': ['accession']}}, {'input': ['Khamsa Standard'], 'weight': 731, 'contexts': {'groupings': ['title']}}]</td>
+      <td>2022-09-10T00:30:14-05:00</td>
+      <td>2022-09-10T00:32:54-05:00</td>
+      <td>2022-09-10T08:51:47-05:00</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>34181</td>
+      <td>artworks</td>
+      <td>https://api.artic.edu/api/v1/artworks/34181</td>
+      <td>True</td>
+      <td>Time Transfixed</td>
+      <td>None</td>
+      <td>{'lqip': 'data:image/gif;base64,R0lGODlhAwAFAPMAADEoHEA1J0hCO3JNMHdZP2ZaSnpcQWNfXGpgVH1nVZFyVoB3b5J4Y5Z+aYN5cAAAACH5BAAAAAAALAAAAAADAAUAAAQLMABWUHNHLWESGREAOw==', 'width': 4137, 'height': 6209, 'alt_text': 'Surrealist painting of miniature train exiting fireplace mid-air, large mirror over mantle.'}</td>
+      <td>1970.426</td>
+      <td>False</td>
+      <td>None</td>
+      <td>1938</td>
+      <td>1938</td>
+      <td>1938</td>
+      <td></td>
+      <td>None</td>
+      <td>René Magritte\nBelgian, 1898–1967</td>
+      <td>Belgium</td>
+      <td>147 × 98.7 cm (57 7/8 × 38 7/8 in.)</td>
+      <td>Oil on canvas</td>
+      <td>Signed, l.r.: "Magritte"</td>
+      <td>Joseph Winterbotham Collection</td>
+      <td>None</td>
+      <td>L’Invention collective, no. 1 (February 1940), p. 4 (ill.).\n\nSaturday Book v. 19 (1959), p. 284 (ill.).\n\nJames Thrall Soby, René Magritte (New York, 1965), p. 37 (ill.).\n\nPatrick Waldberg, René Magritte, translated by Austryn Wainhouse (Brussels, 1965), p. 37 (ill.).\n\nThe Collections of the Tate Gallery (London, 1967), p. 162.\n\nDavid Sylvester, Magritte  (New York and Washington, 1969), pp. 2, 81 (ill.). \n\nSimon Watson Taylor, “René Magritte and André Breton,” Studio International, CLXXVII (February 1969) p. 69 (ill.).\n\nBurlington Magazine, CXII (September 1970), p. lxxviii (ill.).\n\nArts Magazine, CXII (September 1970), ill. \n\n“So Real Surrealism,” The Detroit News (January 12, 1971), ill.\n\nAnne D’Harnoncourt, “Acquisitions of Modern Art by Museums,” Burlington Magazine, CXIV  (February 1972), p. 123 (ill.).\n\nJosé Vovelle, Le Surrealisme en Belgique (Brussels, 1972), p. 116 (ill.).\n\nA. M. Hammacher, René Magritte, translated by James Brockway (New York, 1973), p. 114 (ill.).\n\nSarah Whitfield, Magritte (London: South Bank Centre, 1992), no. 155.\n\nDavid Sylvester and Sarah Whitfield, René Magritte:  Catalogue Raisonné, vol. 2 (Houston: The Menil Foundation, 1993). \n\nMagritte A bis Z, ed. Christoph Grunrmberg and Darren Pih, Exh. cat. (Alberina Publishing, 2012), p. 8, ill. 232, ill. 233, ill. 235, p. 259. \n\nMagritte A to Z, ed. Christoph Grunenberg and Darren Pih, Exh. cat. (Tate Publishing, 2012), ill. 58, p. 59, 195, 204.  \n\nMagritte: The Mystery of the Ordinary, 1926-1938, ed. Anne Umland, Exh. cat. (The Museum of Modern Art, 2013), ill. 223.\n\nDidier Ottinger, Magritte : La trahison des images, exh. cat. (Centre Pompidou, 2016), pp. 39 (color ill.); 221.\n\nStephanie D’Alessandro and Matthew Gale, Surrealism Beyond Borders, exh. cat. (New York: Metropolitan Museum of Art, 2021), 223, fig. 203 (color ill.), as La durée poignardée (Time Transfixed).</td>
+      <td>Brussels, Palais des Beaux-Arts, René Magritte, May 13–24, 1939, cat. 2.\n\nNew York, Museum of Modern Art, Réne Magritte, Dec. 15, 1965–Feb. 27, 1966, no. 38; Waltham, MA, Rose Art Museum, Brandeis University, Apr. 3–May 1, 1966; Art Institute of Chicago, May 30–July 3, 1966; Pasadena, Art Museum, Aug. 1–Sept. 4, 1966; Berkeley, University Art Museum, Oct. 1–Nov. 1, 1966.\n\nLondon, Tate Gallery, René Magritte, Feb. 14–Apr. 2, 1969, no. 62.\n\nLondon, Hayward Gallery, Southbank Centre, Rene Magritte, May 19–Aug. 2, 1992; New York, Metropolitan Museum of Art, Sept. 9–Nov. 22, 1992; Houston, Menil Collection, Dec. 15, 1992–Feb. 21, 1993; Art Institute of Chicago, Mar. 16–May 30, 1993.\n\nBrussels, Musées Royaux des Beaux Arts de Belgique, Réne Magritte, Mar. 6–June 28, 1998.\n\nParis, Centre Georges Pompidou, La Revolution Surrealiste, Feb. 27–June 24, 2003; Dusseldorf, Kunstsammlung Nordrhein-Westfallen, July 20–Nov. 24, 2002.\n\nLos Angeles County Museum of Art, René Magritte and Contemporary Art: The Treachery of Images, Dec. 10, 2006–Mar. 4, 2007.\n\nKansas City, Nelson-Atkins Museum of Art, Art in the Age of Steam: Europe, America and the Railway, 1830–1960, Sept. 13, 2008–Jan. 18, 2009. \n\nLiverpool, Tate Liverpool, René Magritte: The Pleasure Principle, June 24, 2011-Feb. 26, 2012. \n\nNew York, Museum of Modern Art, Magritte: The Mystery of the Ordinary, 1926-1938, Sept. 28, 2013-Jan. 12, 2014, no. 126; Houston, The Menil Collection, Feb. 14-June 1, 2014, Art Institute of Chicsgo, June 24-Oct. 13, 2014.\n\nParis, Centre Georges Pompidou, Magritte, la trahison des images, Sept. 21, 2016–Jan. 23, 2017, no cat. no., Frankfurt, Schirn Kunsthalle, Feb. 10–June 5, 2017 (Paris only).\n\nNew York, Metropolitan Museum of Art, Surrealism Beyond Borders, Oct. 11, 2021–Jan. 30, 2022, fig. 203, as La durée poignardée (Time Transfixed).; London, Tate Modern, Feb. 25-Aug. 29,. 2022,</td>
+      <td>The artist; sold to Edward James, London, by July 12, 1939 [letter from the artist to Edward James, July 12, 1939, Edward James Foundation, copy in curatorial file]; sold, Sotheby Parke Bernet, New York, Oct. 28, 1970, lot 50, to the Art Institute of Chicago.</td>
+      <td>Web Cataloged</td>
+      <td>246</td>
+      <td>1971</td>
+      <td>None</td>
+      <td>False</td>
+      <td>True</td>
+      <td>1280</td>
+      <td>© 2018 C. Herscovici, London / Artists Rights Society (ARS), New York</td>
+      <td>True</td>
+      <td>True</td>
+      <td>33.7618</td>
+      <td>{'h': 39, 'l': 55, 's': 33, 'percentage': 0.01453495187055453, 'population': 155}</td>
+      <td>41.88065</td>
+      <td>-87.621732</td>
+      <td>41.880650403343,41.880650403343</td>
+      <td>False</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Painting</td>
+      <td>1</td>
+      <td>Modern Art</td>
+      <td>PC-11</td>
+      <td>15965</td>
+      <td>René Magritte</td>
+      <td>[]</td>
+      <td>[15965]</td>
+      <td>[René Magritte]</td>
+      <td>[PC-11, PC-109, PC-831]</td>
+      <td>[Modern Art, Art Institute Icons, Essentials]</td>
+      <td>[oil on canvas, Surrealism, interiors, oil painting, oil paint (paint), Surrealism Highlights, painting, painting (image making), canvas, trains, clocks, mirrors, illusion, mantles, fireplaces, Modernism, Joseph Winterbotham Collection]</td>
+      <td>TM-7551</td>
+      <td>Surrealism</td>
+      <td>[TM-5981]</td>
+      <td>[TM-7551, TM-5981]</td>
+      <td>[Surrealism, Modernism]</td>
+      <td>TM-66</td>
+      <td>oil on canvas</td>
+      <td>[TM-14412, TM-9]</td>
+      <td>[TM-66, TM-14412, TM-9]</td>
+      <td>[oil on canvas, Surrealism Highlights, painting]</td>
+      <td>TM-12285</td>
+      <td>[TM-8741, TM-12360, TM-12258, TM-12762, TM-12761, TM-12760, TM-14413]</td>
+      <td>[TM-12285, TM-8741, TM-12360, TM-12258, TM-12762, TM-12761, TM-12760, TM-14413]</td>
+      <td>[interiors, trains, clocks, mirrors, illusion, mantles, fireplaces, Joseph Winterbotham Collection]</td>
+      <td>TM-2451</td>
+      <td>[TM-3124]</td>
+      <td>[TM-2451, TM-3124]</td>
+      <td>[oil paint (paint), canvas]</td>
+      <td>TM-4273</td>
+      <td>[TM-3891]</td>
+      <td>[TM-4273, TM-3891]</td>
+      <td>[oil painting, painting (image making)]</td>
+      <td>[Art Institute Icons, Essentials]</td>
+      <td>6a7160ea-df65-9083-c16c-33b30662208d</td>
+      <td>[]</td>
+      <td>[daf99cca-cbde-0912-1b56-6634d35b60f6, 679e5661-8cbe-e465-d228-59203b8f0425]</td>
+      <td>[679e5661-8cbe-e465-d228-59203b8f0425]</td>
+      <td>[]</td>
+      <td>[daf99cca-cbde-0912-1b56-6634d35b60f6]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[89]</td>
+      <td>Time Transfixed</td>
+      <td>[{'input': ['1970.426'], 'contexts': {'groupings': ['accession']}}, {'input': ['Time Transfixed'], 'weight': 107139, 'contexts': {'groupings': ['title']}}]</td>
+      <td>2022-09-10T00:30:14-05:00</td>
+      <td>2022-09-10T00:32:53-05:00</td>
+      <td>2022-09-10T08:51:47-05:00</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>49624</td>
+      <td>artworks</td>
+      <td>https://api.artic.edu/api/v1/artworks/49624</td>
+      <td>False</td>
+      <td>Deportation to Death (Death Train)</td>
+      <td>None</td>
+      <td>{'lqip': 'data:image/gif;base64,R0lGODlhBwAFAPUAAFBKQWhdRmVcSW1iUG9lVHlvWYBxVoJzVoB0YIV4ZYZ9cJ+MZ52MapOFcpKHdZOId6GQcZ+UgKSXgqmbhKufjLCehLKhhbKjja6jlLaokcCukMO0ncCzo8S3pcm8p8y+rNTDp9XFrtvMuQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQI/DonkoOpmAYUEAYECQAqNR+WwGggMiwQlNJJELRRQEADs=', 'width': 3176, 'height': 2315, 'alt_text': 'A work made of linocut in black on tan wove paper.'}</td>
+      <td>1943.1362</td>
+      <td>False</td>
+      <td>None</td>
+      <td>1942</td>
+      <td>1942</td>
+      <td>1942</td>
+      <td></td>
+      <td>None</td>
+      <td>Leopoldo Méndez\nMexican, 1902-1969</td>
+      <td>Mexico</td>
+      <td>352 × 513 mm (image); 419 × 587 mm (sheet)</td>
+      <td>Linocut in black on tan wove paper</td>
+      <td>None</td>
+      <td>William McCallin McKee Memorial Endowment</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Web Basic</td>
+      <td>3</td>
+      <td>1944</td>
+      <td>None</td>
+      <td>False</td>
+      <td>True</td>
+      <td>1280</td>
+      <td>© 2018 Artists Rights Society (ARS), New York / SOMAAP, Mexico City</td>
+      <td>False</td>
+      <td>False</td>
+      <td>28.1722</td>
+      <td>{'h': 38, 'l': 38, 's': 44, 'percentage': 0.006558072698164705, 'population': 34}</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>False</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Print</td>
+      <td>18</td>
+      <td>Prints and Drawings</td>
+      <td>PC-13</td>
+      <td>35738</td>
+      <td>Leopoldo Méndez</td>
+      <td>[]</td>
+      <td>[35738]</td>
+      <td>[Leopoldo Méndez]</td>
+      <td>[PC-13, PC-829]</td>
+      <td>[Prints and Drawings, Latin American]</td>
+      <td>[linocut, paper (fiber product), print, prints and drawing]</td>
+      <td>None</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>TM-223</td>
+      <td>linocut</td>
+      <td>[TM-17, TM-4]</td>
+      <td>[TM-223, TM-17, TM-4]</td>
+      <td>[linocut, print, prints and drawing]</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>TM-2982</td>
+      <td>[]</td>
+      <td>[TM-2982]</td>
+      <td>[paper (fiber product)]</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[Latin American]</td>
+      <td>f43ab2dd-ae23-cbce-866e-91d1c28f529b</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[{'input': ['1943.1362'], 'contexts': {'groupings': ['accession']}}, {'input': ['Deportation to Death (Death Train)'], 'weight': 1516, 'contexts': {'groupings': ['title']}}]</td>
+      <td>2022-09-10T00:30:14-05:00</td>
+      <td>2022-09-10T00:32:52-05:00</td>
+      <td>2022-09-10T08:51:47-05:00</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>47141</td>
+      <td>artworks</td>
+      <td>https://api.artic.edu/api/v1/artworks/47141</td>
+      <td>False</td>
+      <td>Nude Seated in a Bathtub</td>
+      <td>None</td>
+      <td>{'lqip': 'data:image/gif;base64,R0lGODlhBAAFAPQAADs9O0xHNnVKNFBOR1FSR2daT3tdTGJbWWFgWW1mZXp2cIRXP5NkRYVkXZ19d4+JfqmMfZeOg6GMgLumngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIGMsAiQ5TTQlxXAAAYEoTwgAOw==', 'width': 6415, 'height': 8253, 'alt_text': 'A work made of oil on canvas.'}</td>
+      <td>1974.227</td>
+      <td>False</td>
+      <td>None</td>
+      <td>1910</td>
+      <td>1910</td>
+      <td>1910</td>
+      <td></td>
+      <td>None</td>
+      <td>Marcel Duchamp\nAmerican, born France, 1887–1968</td>
+      <td>France</td>
+      <td>36 1/4 × 28 3/4 in. (92.1 × 73.1 cm)</td>
+      <td>Oil on canvas</td>
+      <td>None</td>
+      <td>Gift of Mrs. Marcel Duchamp</td>
+      <td>None</td>
+      <td>Robert Lebel, Marcel Duchamp (New York: 1959), p. 109, p. 18 (ill.).\n\nArturo Schwarz, The Complete Works of Marcel Duchamp (New York, 1969), pp. 221 and 416, pl. 21 (ill.), cat. 131. \n\n“Public Museum News,” Art Journal 35.1 (Autumn 1975), p. 54.\n\n7th American Exhibition (Chicago: Art Institute of Chicago, 1982), p. 14 (gallery installation view).\n\nAnne Rorimer, “Michael Asher: Kontext als Inhalt,” Texte zur Kunst (Herbst 1990).\n\nDalia Judovitz, Unpacking Duchamp: Art in Transit (Berkeley: University of California Press, 1995) p. 20, fig. 1 and p. 21.\n\nArturo Schwarz, The Complete Works of Marcel Duchamp (New York: Delano Greenidge Editions, 1997), p. 529, cat. 183.\n\nAlejandra Perdomo Daniels, Die Verwandlung der Dinge: Zur Ästhetik der Aneignung in der New Yorker Kunstszene Mitte des 20. Jahrhunderts (Bielefield: Transcript Verlag, 2014), p. 184.\n\nAnne Rorimer, “Remembering Michael Asher at the Art Institute of Chicago, 1982,” October 149 (Summer 2014), p. 196 and 197 (gallery installation view).</td>
+      <td>New York, Sidney Janis Gallery, Brancusi to Duchamp, Sept. 17–Oct. 17, 1951, cat. 7.\n\nNew York, Sidney Janis, Marcel Duchamp, Apr 6.–May 2, 1959.\n\nPasadena Art Museum, Marcel Duchamp: A Retrospective Exhibition, Oct. 8–Nov. 3, 1963, cat. 8.\n\nLondon, Tate Gallery, The Almost Complete Works of Marcel Duchamp, June 18–July 31, 1966, cat. 53.\n\nParis, Musée nationale d’art moderne, Raymond Duchamp-Villon / Marcel Duchamp, June–July 1967, cat. 43.\n\nPhiladelphia Museum of Art, Marcel Duchamp, Sept. 22–Nov. 11, 1973, checklist no. 59 (not in cat.); New York, Museum of Modern Art, Dec. 3, 1973–Feb. 10, 1974; Art Institute of Chicago, Mar. 9–Apr. 21, 1974.\n\nParis, Centre Georges Pompidou, Marcel Duchamp. La peinture, même, 1910–1923, Sept. 24, 2014–Jan. 5, 2015.</td>
+      <td>Henri-Pierre Roché (1879–1959), Paris [this and the following according to Schwarz 1997]; Mme. Roché, Paris. Marcel Duchamp [letter from Alexina S. Duchamp, June 26, 1974, in curatorial object file]; with his wife Alexina S. Duchamp (1906–1995), Villiers-sous-Grez, France, by 1963 [Pasadena 1963]; bequeathed to Frank B. Hubacheck, Jr. (1894–1986), Chicago, 1968 [this and the following according to letter from Frank B. Hubacheck, Jr. to Alexina S. “Teeny” Duchamp, June 18, 1974, in curatorial file]; renounced and returned to Alexina S. Duchamp, 1968; given to the Art Institute of Chicago, 1974.</td>
+      <td>Web Cataloged</td>
+      <td>246</td>
+      <td>None</td>
+      <td>None</td>
+      <td>False</td>
+      <td>True</td>
+      <td>1280</td>
+      <td>© 2018 Artists Rights Society (ARS), New York / ADAGP, Paris / Succession Marcel\nDuchamp</td>
+      <td>False</td>
+      <td>True</td>
+      <td>35.2456</td>
+      <td>{'h': 84, 'l': 43, 's': 6, 'percentage': 0.03813310119946947, 'population': 343}</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>False</td>
+      <td>&lt;p&gt;On loan to Museum für Moderne Kunst in Frankfurt am Main for &lt;i&gt;Marcel Duchamp: A Revision of the Object&lt;/i&gt;&lt;/p&gt;</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Painting</td>
+      <td>1</td>
+      <td>Modern Art</td>
+      <td>PC-11</td>
+      <td>34316</td>
+      <td>Marcel Duchamp</td>
+      <td>[]</td>
+      <td>[34316]</td>
+      <td>[Marcel Duchamp]</td>
+      <td>[PC-11]</td>
+      <td>[Modern Art]</td>
+      <td>[painting, women, modern and contemporary art, interiors, bathing, nudes]</td>
+      <td>None</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>TM-9</td>
+      <td>painting</td>
+      <td>[TM-155]</td>
+      <td>[TM-9, TM-155]</td>
+      <td>[painting, modern and contemporary art]</td>
+      <td>TM-8735</td>
+      <td>[TM-12285, TM-12604, TM-8649]</td>
+      <td>[TM-8735, TM-12285, TM-12604, TM-8649]</td>
+      <td>[women, interiors, bathing, nudes]</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>None</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>e438d818-9c7b-824a-74f9-5b1e663ad7a4</td>
+      <td>[]</td>
+      <td>[cb4b2557-071d-cb64-7195-2adc92592584]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[cb4b2557-071d-cb64-7195-2adc92592584]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[{'input': ['1974.227'], 'contexts': {'groupings': ['accession']}}, {'input': ['Nude Seated in a Bathtub'], 'weight': 3187, 'contexts': {'groupings': ['title']}}]</td>
+      <td>2022-09-10T00:30:14-05:00</td>
+      <td>2022-09-10T00:32:52-05:00</td>
+      <td>2022-09-10T08:51:47-05:00</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>50273</td>
+      <td>artworks</td>
+      <td>https://api.artic.edu/api/v1/artworks/50273</td>
+      <td>False</td>
+      <td>Male Face Mask (Zauli)</td>
+      <td>None</td>
+      <td>{'lqip': 'data:image/gif;base64,R0lGODlhAwAFAPMAAGNTRIFvYLKtqLSvqcXCv8rFwcrGxMjHxs3KyNDOzNnX1tna297b2eLh4ePj4wAAACH5BAAAAAAALAAAAAADAAUAAAQLMBlHRkOBHVCWUBEAOw==', 'width': 2136, 'height': 3660, 'alt_text': 'A work made of wood, pigment, and metal tacks.'}</td>
+      <td>1976.21</td>
+      <td>False</td>
+      <td>None</td>
+      <td>1900</td>
+      <td>1975</td>
+      <td>20th century</td>
+      <td></td>
+      <td>None</td>
+      <td>Guro\nCôte d'Ivoire\nCoastal West Africa</td>
+      <td>Côte d'Ivoire</td>
+      <td>63 × 17.5 cm (24 3/4 × 6 7/8 in.)</td>
+      <td>Wood, pigment, and metal tacks</td>
+      <td>None</td>
+      <td>Purchased with funds provided by Mr. and Mrs. Eugene A. Davidson</td>
+      <td>None</td>
+      <td>Art Institute of Chicago, Annual Report 1975-76 (Art Institute of Chicago, 1976), pp. 56-57 (ill.).\n\nWarren M. Robbins and Nancy Ingram Nooter, African Art in American Collections (Washington D.C.: Smithsonian Institution Press, 1989), p. 172 (ill.).\n\nBouttiaux, Anne-Marie. 2016. Guro: The Permanence of Change. Visions of Africa. 5 Continents Editions, pl. 9 (ill.).\n\nConstantine Petridis et al., Speaking of Objects: African Art at the Art Institute of Chicago (Chicago: Art Institute of Chicago, 2020), cat. no. 23, pp. 78-79 (ill.).\n\nConstantine Petridis, ed., The Language of Beauty in African Art, ex. cat. (Yale University Press, 2022), cat. no. 254, p. 278 (ill.).</td>
+      <td>None</td>
+      <td>Mathias Komor Gallery, New York, N.Y., by 1975 [acquisition documentation in curatorial file]; sold to the Art Institute, 1976.</td>
+      <td>Web Cataloged</td>
+      <td>43</td>
+      <td>None</td>
+      <td>None</td>
+      <td>False</td>
+      <td>True</td>
+      <td>-1</td>
+      <td>None</td>
+      <td>False</td>
+      <td>False</td>
+      <td>17.0733</td>
+      <td>{'h': 165, 'l': 89, 's': 0, 'percentage': 0.5627244736677807, 'population': 6850}</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>False</td>
+      <td>&lt;p&gt;On loan&lt;/p&gt;</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Mask</td>
+      <td>7</td>
+      <td>Arts of Africa</td>
+      <td>PC-1</td>
+      <td>30135</td>
+      <td>Guro</td>
+      <td>[]</td>
+      <td>[30135]</td>
+      <td>[Guro]</td>
+      <td>[PC-1]</td>
+      <td>[Arts of Africa]</td>
+      <td>[wood (plant material), guro, masks, masks, carving, wood, arts of Africa, Arts of Africa, metal, kaolin, african art, african Art, ceremonial mask, headdress - misc, animals, Coastal West Africa, supernatural, dance, performance, protector]</td>
+      <td>TM-6302</td>
+      <td>guro</td>
+      <td>[TM-14183, TM-13489, TM-13566]</td>
+      <td>[TM-6302, TM-14183, TM-13489, TM-13566]</td>
+      <td>[guro, Arts of Africa, african Art, Coastal West Africa]</td>
+      <td>TM-245</td>
+      <td>masks</td>
+      <td>[TM-84, TM-14182, TM-13486, TM-12149, TM-2332]</td>
+      <td>[TM-245, TM-84, TM-14182, TM-13486, TM-12149, TM-2332]</td>
+      <td>[masks, wood, arts of Africa, african art, ceremonial mask, headdress - misc]</td>
+      <td>TM-12113</td>
+      <td>[TM-12218, TM-12867, TM-14180, TM-12949, TM-13609]</td>
+      <td>[TM-12113, TM-12218, TM-12867, TM-14180, TM-12949, TM-13609]</td>
+      <td>[masks, animals, supernatural, dance, performance, protector]</td>
+      <td>TM-2431</td>
+      <td>[TM-2568, TM-3817]</td>
+      <td>[TM-2431, TM-2568, TM-3817]</td>
+      <td>[wood (plant material), metal, kaolin]</td>
+      <td>TM-3863</td>
+      <td>[]</td>
+      <td>[TM-3863]</td>
+      <td>[carving]</td>
+      <td>[]</td>
+      <td>bf4ac6d1-fdd1-7937-fbac-079b3dde6f1d</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[]</td>
+      <td>[{'input': ['1976.21'], 'contexts': {'groupings': ['accession']}}, {'input': ['Male Face Mask (Zauli)'], 'weight': 742, 'contexts': {'groupings': ['title']}}]</td>
+      <td>2022-09-10T00:30:14-05:00</td>
+      <td>2022-09-10T00:32:51-05:00</td>
+      <td>2022-09-10T08:51:47-05:00</td>
+      <td>None</td>
+    </tr>
+  </tbody>
+</table>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready( function () {
+            $('#table').DataTable({
+                // paging: false,    
+                // scrollY: 400,
+            });
+        });
+    </script>
+    </body>
+    </html>
+    
